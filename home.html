@@ -1,63 +1,168 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SyncUp | Home</title>
-  <link rel="stylesheet" href="style.css">
+  <title>SyncUp - Home</title>
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
 
-  <header class="navbar">
-    <h1 class="logo">SyncUp</h1>
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="#">Profile</a>
-      <a href="index.html">Logout</a>
-    </nav>
-  </header>
+  <nav class="navbar">
+    <div class="navbar-content">
+      <div class="navbar-left">
+        <a href="home.html" class="navbar-logo">SyncUp</a>
 
-  <main class="feed-container">
-
-    <section class="create-post">
-      <h2>Create a Post</h2>
-      <textarea placeholder="Share something with your friends..."></textarea>
-      <button>Post</button>
-    </section>
-
-    <section class="posts">
-      <div class="post">
-        <h3>Rahul Sharma</h3>
-        <p>Feeling excited for the new semester! Let's make it a productive one.</p>
+        <div class="navbar-menu">
+          <a href="home.html" class="active">
+            <span>🏠</span>
+            <span>Home</span>
+          </a>
+          <a href="#"><span>👥</span><span>Community</span></a>
+          <a href="#"><span>🎓</span><span>Clubs</span></a>
+          <a href="#"><span>📅</span><span>Events</span></a>
+          <a href="#"><span>📘</span><span>Resources</span></a>
+        </div>
       </div>
 
-      <div class="post">
-        <h3>Priya Patel</h3>
-        <p>Anyone interested in forming a study group for Data Structures?</p>
-      </div>
+      <a href="index.html">
+        <div class="profile-icon">👤</div>
+      </a>
+    </div>
+  </nav>
+  <main class="main-content">
+    <div class="content-grid">
 
-      <div class="post">
-        <h3>Aarav Singh</h3>
-        <p>Enjoyed today's football match! Great teamwork everyone ⚽</p>
-      </div>
-    </section>
+      <section class="feed">
 
-    <aside class="sidebar">
-      <h3>Campus Highlights</h3>
-      <ul>
-        <li>📅 Cultural Fest - 29th Nov - 30th Nov</li>
-        <li>💻 Coding Bootcamp Next Week</li>
-        <li>📣 Student Council Elections Open</li>
-      </ul>
-    </aside>
+        <div class="create-post">
+          <input type="text" placeholder="What's on your mind?">
+        </div>
 
+        <div class="post-card">
+          <div class="post-header">
+            <div class="post-avatar"></div>
+            <div class="post-user-info">
+              <h3>Sarah Johnson</h3>
+              <p>2 hours ago</p>
+            </div>
+          </div>
+
+          <p class="post-content">
+            Just finished our group project! Thanks to everyone who contributed 🎉
+          </p>
+
+          <div class="post-image"></div>
+
+          <div class="post-actions">
+            <button class="action-btn">❤️ 45</button>
+            <button class="action-btn">💬 12</button>
+            <button class="action-btn">🔗 Share</button>
+          </div>
+        </div>
+
+        <div class="post-card">
+          <div class="post-header">
+            <div class="post-avatar"></div>
+            <div class="post-user-info">
+              <h3>Mike Chen</h3>
+              <p>5 hours ago</p>
+            </div>
+          </div>
+
+          <p class="post-content">
+            Looking for study partners for the upcoming calculus exam. Anyone interested?
+          </p>
+
+          <div class="post-image"></div>
+
+          <div class="post-actions">
+            <button class="action-btn">❤️ 23</button>
+            <button class="action-btn">💬 8</button>
+            <button class="action-btn">🔗 Share</button>
+          </div>
+        </div>
+
+      </section>
+
+      <aside class="sidebar">
+
+        <div class="sidebar-card">
+          <h3>Trending Clubs</h3>
+
+          <div class="club-item">
+            <div class="club-avatar"></div>
+            <p>Tech Club</p>
+          </div>
+
+          <div class="club-item">
+            <div class="club-avatar"></div>
+            <p>Music Society</p>
+          </div>
+
+          <div class="club-item">
+            <div class="club-avatar"></div>
+            <p>Debate Club</p>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Upcoming Events</h3>
+
+          <div class="event-item">Tech Fest 2024 – Dec 15</div>
+          <div class="event-item">Annual Sports Day – Dec 20</div>
+          <div class="event-item">Cultural Night – Dec 25</div>
+
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Study Resources</h3>
+
+          <div class="resource-item">
+            <p>Calculus Notes</p>
+            <small>Updated 2 days ago</small>
+          </div>
+
+          <div class="resource-item">
+            <p>Physics Lab Manual</p>
+            <small>Updated 5 days ago</small>
+          </div>
+
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Suggested Peers</h3>
+
+          <div class="peer-item">
+            <div class="peer-info">
+              <div class="peer-avatar"></div>
+              <p>Alex Kumar</p>
+            </div>
+            <button class="btn-follow">Follow</button>
+          </div>
+
+          <div class="peer-item">
+            <div class="peer-info">
+              <div class="peer-avatar"></div>
+              <p>Jenny Park</p>
+            </div>
+            <button class="btn-follow">Follow</button>
+          </div>
+
+          <div class="peer-item">
+            <div class="peer-info">
+              <div class="peer-avatar"></div>
+              <p>David Smith</p>
+            </div>
+            <button class="btn-follow">Follow</button>
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
   </main>
-
-  <footer>
-    <p>© 2025 SyncUp. Built for Students, by Students.</p>
-  </footer>
 
 </body>
 </html>
