@@ -27,10 +27,12 @@ body {
 .navbar-logo {
   font-size: 26px;
   font-weight: 700;
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
-  -webkit-text-fill-color: transparent;
+  color: #3b82f6;
   text-decoration: none;
+  display: inline-block;
+  padding-bottom: 10px;
 }
+
 
 .navbar-menu {
   display: flex;
@@ -204,7 +206,6 @@ body {
   color: #64748b;
 }
 
-/* PEERS */
 .peer-item {
   display: flex;
   justify-content: space-between;
