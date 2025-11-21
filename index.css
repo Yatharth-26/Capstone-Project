@@ -128,10 +128,10 @@ input:focus {
   font-size: 13px;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .container {
     flex-direction: column;
-  } */
+  }
 
   .image-panel {
     grid-template-columns: repeat(2, 1fr);
@@ -141,4 +141,4 @@ input:focus {
   .login-box {
     padding: 30px;
   }
-
+}
