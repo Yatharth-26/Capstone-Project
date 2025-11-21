@@ -61,7 +61,7 @@ body {
   font-size: 18px;
 }
 
-/* MAIN LAYOUT */
+
 .main-content {
   max-width: 1200px;
   margin: 30px auto;
@@ -233,9 +233,9 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-
+/* 
 @media (max-width: 880px) {
   .content-grid {
     grid-template-columns: 1fr;
   }
-}
+} */
