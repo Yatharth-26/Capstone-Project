@@ -1,4 +1,3 @@
-
 body {
   background: #f8fafc;
   margin: 0;
@@ -6,6 +5,7 @@ body {
   color: #1e293b;
 }
 
+/* NAVBAR */
 .navbar {
   background: #ffffff;
   padding: 16px 0;
@@ -32,7 +32,6 @@ body {
   display: inline-block;
   padding-bottom: 10px;
 }
-
 
 .navbar-menu {
   display: flex;
@@ -61,7 +60,7 @@ body {
   font-size: 18px;
 }
 
-
+/* MAIN LAYOUT */
 .main-content {
   max-width: 1200px;
   margin: 30px auto;
@@ -74,6 +73,7 @@ body {
   gap: 25px;
 }
 
+/* FEED */
 .feed {
   display: flex;
   flex-direction: column;
@@ -96,6 +96,7 @@ body {
   background: #f8fafc;
 }
 
+/* POST CARD */
 .post-card {
   background: #fff;
   padding: 16px;
@@ -132,14 +133,18 @@ body {
   color: #1e293b;
 }
 
+/* FIXED IMAGE STYLE FOR <img class="post-image"> */
 .post-image {
   width: 100%;
-  height: 200px;
-  background: #e2e8f0;
-  border-radius: 12px;
+  max-height: 350px;   /* prevents stretching / overly tall images */
+  height: auto;
   margin-top: 12px;
+  border-radius: 12px;
+  object-fit: cover;   /* keeps aspect ratio clean */
+  display: block;
 }
 
+/* POST ACTIONS */
 .post-actions {
   display: flex;
   gap: 20px;
@@ -161,6 +166,7 @@ body {
   color: #3b82f6;
 }
 
+/* SIDEBAR */
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -189,6 +195,7 @@ body {
   border: 1px solid #e2e8f0;
 }
 
+/* CLUBS */
 .club-item {
   display: flex;
   align-items: center;
@@ -202,10 +209,12 @@ body {
   background: linear-gradient(135deg, #fb7185, #f43f5e);
 }
 
+/* RESOURCES */
 .resource-item small {
   color: #64748b;
 }
 
+/* PEERS */
 .peer-item {
   display: flex;
   justify-content: space-between;
@@ -234,6 +243,7 @@ body {
   cursor: pointer;
 }
 
+/* RESPONSIVE */
 @media (max-width: 900px) {
   .content-grid {
     grid-template-columns: 1fr;
