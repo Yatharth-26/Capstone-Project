@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="home.css">
 </head>
 <body>
+
   <nav class="navbar">
     <div class="navbar-content">
       <div class="navbar-left">
@@ -32,57 +33,169 @@
   <main class="main-content">
     <div class="content-grid">
 
-      <section class="feed">
+<section class="feed">
 
-        <div class="create-post">
-          <input type="text" placeholder="What's on your mind?">
-        </div>
+  <div class="create-post">
+    <input type="text" placeholder="What's on your mind?">
+  </div>
 
-        <div class="post-card">
-          <div class="post-header">
-            <div class="post-avatar"></div>
-            <div class="post-user-info">
-              <h3>Sarah Johnson</h3>
-              <p>2 hours ago</p>
-            </div>
-          </div>
+  <!-- Post 1 -->
+  <div class="post-card">
+    <div class="post-header">
+      <div class="post-avatar"></div>
+      <div class="post-user-info">
+        <h3>Sarah Johnson</h3>
+        <p>2 hours ago</p>
+      </div>
+    </div>
 
-          <p class="post-content">
-            Just finished our group project! Thanks to everyone who contributed 🎉
-          </p>
+    <p class="post-content">
+      Just finished our group project! Thanks to everyone who contributed 🎉
+    </p>
 
-          <div class="post-image"></div>
+    <img 
+      src="https://i.pinimg.com/736x/a6/3a/19/a63a19d854eda40041c3d475664720b5.jpg" 
+      class="post-image"
+      alt="Group Project">
+    
+    <div class="post-actions">
+      <button class="action-btn">❤️ 45</button>
+      <button class="action-btn">💬 12</button>
+      <button class="action-btn">🔗 Share</button>
+    </div>
+  </div>
 
-          <div class="post-actions">
-            <button class="action-btn">❤️ 45</button>
-            <button class="action-btn">💬 12</button>
-            <button class="action-btn">🔗 Share</button>
-          </div>
-        </div>
+  <!-- Post 2 -->
+  <div class="post-card">
+    <div class="post-header">
+      <div class="post-avatar"></div>
+      <div class="post-user-info">
+        <h3>Mike Chen</h3>
+        <p>5 hours ago</p>
+      </div>
+    </div>
 
-        <div class="post-card">
-          <div class="post-header">
-            <div class="post-avatar"></div>
-            <div class="post-user-info">
-              <h3>Mike Chen</h3>
-              <p>5 hours ago</p>
-            </div>
-          </div>
+    <p class="post-content">
+      Looking for study partners for the upcoming calculus exam. Anyone interested?
+    </p>
 
-          <p class="post-content">
-            Looking for study partners for the upcoming calculus exam. Anyone interested?
-          </p>
+    <img 
+      src="https://i.pinimg.com/736x/85/1f/a7/851fa7ca0f2a889a4226ce90c0ed49db.jpg" 
+      class="post-image"
+      alt="Study Group">
+    
+    <div class="post-actions">
+      <button class="action-btn">❤️ 23</button>
+      <button class="action-btn">💬 8</button>
+      <button class="action-btn">🔗 Share</button>
+    </div>
+  </div>
 
-          <div class="post-image"></div>
+  <!-- Post 3 — Hackathon -->
+  <div class="post-card">
+    <div class="post-header">
+      <div class="post-avatar"></div>
+      <div class="post-user-info">
+        <h3>Hackathon Team Alpha</h3>
+        <p>1 day ago</p>
+      </div>
+    </div>
 
-          <div class="post-actions">
-            <button class="action-btn">❤️ 23</button>
-            <button class="action-btn">💬 8</button>
-            <button class="action-btn">🔗 Share</button>
-          </div>
-        </div>
+    <p class="post-content">
+      We secured 2nd place at the overnight Hackathon! Amazing teamwork and energy ⚡💻  
+    </p>
 
-      </section>
+    <img 
+      src="https://i.pinimg.com/736x/07/24/08/0724084c00c27f93d3b705282edf2179.jpg" 
+      class="post-image"
+      alt="Hackathon Team">
+    
+    <div class="post-actions">
+      <button class="action-btn">❤️ 87</button>
+      <button class="action-btn">💬 34</button>
+      <button class="action-btn">🔗 Share</button>
+    </div>
+  </div>
+
+  <!-- Post 4 — Sports -->
+  <div class="post-card">
+    <div class="post-header">
+      <div class="post-avatar"></div>
+      <div class="post-user-info">
+        <h3>Campus Sports League</h3>
+        <p>3 hours ago</p>
+      </div>
+    </div>
+
+    <p class="post-content">
+      What a match! Football finals were intense — congratulations to the winning team ⚽🔥  
+    </p>
+
+    <img 
+      src="https://i.pinimg.com/736x/29/aa/4d/29aa4dbd2fe417f3d63febec8ad01016.jpg"
+      alt="Sports Event">
+    
+    <div class="post-actions">
+      <button class="action-btn">❤️ 61</button>
+      <button class="action-btn">💬 19</button>
+      <button class="action-btn">🔗 Share</button>
+    </div>
+  </div>
+
+  <!-- Post 5 — Cultural Fest -->
+  <div class="post-card">
+    <div class="post-header">
+      <div class="post-avatar"></div>
+      <div class="post-user-info">
+        <h3>Cultural Committee</h3>
+        <p>12 hours ago</p>
+      </div>
+    </div>
+
+    <p class="post-content">
+      Last night's Cultural Fest was magical! Incredible performances & unforgettable vibes ✨🎭
+    </p>
+
+    <img 
+      src="https://i.pinimg.com/736x/b3/23/58/b32358d72bb8ceb8995cd2258aaa28a2.jpg" 
+      class="post-image"
+      alt="Cultural Fest">
+    
+    <div class="post-actions">
+      <button class="action-btn">❤️ 102</button>
+      <button class="action-btn">💬 45</button>
+      <button class="action-btn">🔗 Share</button>
+    </div>
+  </div>
+
+  <!-- Post 6 — Night Coding -->
+  <div class="post-card">
+    <div class="post-header">
+      <div class="post-avatar"></div>
+      <div class="post-user-info">
+        <h3>Night Coders Group</h3>
+        <p>6 hours ago</p>
+      </div>
+    </div>
+
+    <p class="post-content">
+      Late-night coding session! Preparing for the upcoming Hackathon. Coffee + Code = Productivity ☕💻  
+    </p>
+
+    <img 
+      src="https://i.pinimg.com/736x/10/a2/f0/10a2f0c4221be23c238934528bab97e8.jpg" 
+      class="post-image"
+      alt="Night Coding">
+    
+    <div class="post-actions">
+      <button class="action-btn">❤️ 76</button>
+      <button class="action-btn">💬 21</button>
+      <button class="action-btn">🔗 Share</button>
+    </div>
+  </div>
+
+</section>
+
 
       <aside class="sidebar">
 
@@ -163,5 +276,6 @@
     </div>
   </main>
 
+  <script src="home.js"></script>
 </body>
 </html>
