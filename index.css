@@ -137,10 +137,6 @@ input:focus {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
   }
-
-  .login-box {
-    padding: 30px;
-  }
 }
 
 .login-btn {
